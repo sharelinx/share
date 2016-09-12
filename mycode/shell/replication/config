@@ -1,0 +1,15 @@
+#conf flie
+#for variables,fuctions
+s_host=
+mas_ip=
+my_passwd=hd8832508
+rp_user=hd
+rp_passwd=hd8832508
+s_user=root
+s_passwd=hd8832508
+mysql_5_1=http://mirrors.sohu.com/mysql/MySQL-5.1/mysql-5.1.73-linux-$ar-glibc23.tar.gz
+mysql_5_6=http://mirrors.sohu.com/mysql/MySQL-5.6/mysql-5.6.31-linux-glibc2.5-$ar.tar.gz
+mysql_5_7=http://mirrors.sohu.com/mysql/MySQL-5.7/mysql-5.7.12-linux-glibc2.5-$ar.tar.gz
+url_centos=http://xz.lives90.cn/.hk_centos
+url_epel=http://xz.lives90.cn/.hk_epel
+yun="cuhk.edu.hk"

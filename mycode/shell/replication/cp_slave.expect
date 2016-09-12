@@ -1,0 +1,12 @@
+#!/usr/bin/expect
+set user [lindex $argv 0]
+set host [lindex $argv 1]
+set passwd [lindex $argv 2]
+set file [lindex $argv 3]
+spawn rsync -avzP $file $user@$host:/tmp
+set timeout 600
+expect {
+"yes/no" {exp_send "yes\r"}
+"password:" {exp_send "$passwd\r" }
+}
+expect eof
